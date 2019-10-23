@@ -10,6 +10,8 @@ if(result > 100)
   std::cout << "The result is HIGH ";
  } 
   else {
-    std::cout << "The result is LOW "; 
+    std::cout << "The result is LOW "<< std::endl;
+    std::cerr << "The program failed " <<std::endl;
+
 }
 }

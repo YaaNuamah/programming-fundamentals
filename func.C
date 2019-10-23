@@ -1,19 +1,27 @@
 #include <iostream>
 int getnum()
+
+
  {
+ int num1;
  std::cout << "Enter a number";
- std::cin  >>auto num1;
+ std::cin >> num1;
 
  return num1;
+
 }
 int main()
 {
-  int num1;
-  int result;	
-
-getnum(num1);
-getnum(num1);
  
-cout <<
+  int sum;
 
+int num2 = getnum();
+int num1 = getnum();
+ 
+sum = num2 + num1;
+
+std::cout <<num2 << " + " << num1 << " = " << sum;
+ 
 }
+
+ 
